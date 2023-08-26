@@ -45,7 +45,7 @@ p {
 	font-size: 4rem;
 	font-weight: 300;
 	color: black;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 	text-align: center;
@@ -75,6 +75,8 @@ p {
 	font-size: 3rem;
 	text-transform: uppercase;
 	color: white;
+	margin-bottom: 10px;
+	text-align: center;
 }
 .brand h1 span {
 	color: var(--color1);
@@ -282,7 +284,7 @@ p {
 }
 #services .service-bottom {
 	display: flex;
-	align-items: center;
+	align-items: stretch;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
@@ -290,7 +292,7 @@ p {
 }
 #services .service-item {
     display: grid;
-	align-items: center;
+	align-items: stretch;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin-top: 50px;
@@ -321,9 +323,9 @@ p {
 	z-index: -1;
 }
 #services .service-bottom .icon {
-	height: 80px;
-	width: 80px;
-	margin-bottom: 20px;
+	height: 70px;
+	width: 70px;
+	margin-bottom: 10px;
 }
 #services .service-item h2 {
 	font-size: 2rem;
@@ -519,21 +521,15 @@ p {
 	margin-bottom: 30px;
 }
 #footer .social-item {
-	height: 50px;
-	width: 50px;
+	height: 30px;
+	width: 30px;
 	margin: 0 5px;
 }
 #footer .social-item img {
 	filter: grayscale(1);
 	transition: 0.3s ease filter;
 }
-#footer .social-item:hover img {
-	filter: grayscale(0);
-}
-#footer p {
-	color: white;
-	font-size: 1.3rem;
-}
+
 
 @keyframes hamburger_puls {
 	0% {
